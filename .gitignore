@@ -31,9 +31,12 @@ develop-eggs
 lib
 lib64
 local
+.cache/
+.eggs/
 
 # Installer logs
 pip-log.txt
+pip-selfcheck.json
 
 # Unit test / coverage reports
 .coverage
@@ -44,6 +47,7 @@ nosetests.xml
 *.mo
 
 # Mr Developer
+.pypirc
 .mr.developer.cfg
 .project
 .pydevproject
